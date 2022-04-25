@@ -23,8 +23,8 @@ function MuiButton() {
 
   console.log(formats);
   return (
-    <>
-      <Stack spacing={4} direction="row" mb={3}>
+    <Stack spacing={4}>
+      <Stack spacing={4} direction="row">
         <Button variant="contained" color="primary">
           button
         </Button>
@@ -55,7 +55,7 @@ function MuiButton() {
           outlined
         </Button>
       </Stack>
-      <Stack display="block" spacing={4} direction="row" mt={3}>
+      <Stack display="block" spacing={4} direction="row">
         <Button variant="contained" size="small">
           small
         </Button>
@@ -66,7 +66,7 @@ function MuiButton() {
           large
         </Button>
       </Stack>
-      <Stack spacing={2} direction="row" mt={3}>
+      <Stack spacing={2} direction="row">
         <Button variant="contained" disableRipple startIcon={<SendIcon />}>
           Send
         </Button>
@@ -81,14 +81,14 @@ function MuiButton() {
           <SendIcon />
         </IconButton>
       </Stack>
-      <Stack direction="row" mt={3}>
+      <Stack direction="row">
         <ButtonGroup variant="outlined">
           <Button>Left</Button>
           <Button>Center</Button>
           <Button>Right</Button>
         </ButtonGroup>
       </Stack>
-      <Stack mt={3}>
+      <Stack>
         <ButtonGroup
           variant="contained"
           orientation="vertical"
@@ -100,7 +100,7 @@ function MuiButton() {
           <Button>Lower</Button>
         </ButtonGroup>
       </Stack>
-      <Typography variant="h5" color="initial" mt={4}>
+      <Typography variant="h5" color="initial">
         Toggle Button
       </Typography>
       <Stack direction="row" mt={3}>
@@ -121,7 +121,7 @@ function MuiButton() {
           </ToggleButton>
         </ToggleButtonGroup>
       </Stack>
-    </>
+    </Stack>
   );
 }
 

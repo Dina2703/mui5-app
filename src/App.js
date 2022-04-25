@@ -1,5 +1,6 @@
 import "./App.css";
 import MuiButton from "./components/MuiButton";
+import MuiTextField from "./components/MuiTextField";
 import MuiTypo from "./components/MuiTypo";
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
       <MuiTypo />
       <h2>MUI 5 Button variants</h2>
       <MuiButton />
+      <h2>MUI 5 TextField variants</h2>
+      <MuiTextField />
     </div>
   );
 }
