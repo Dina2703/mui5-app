@@ -38,3 +38,13 @@ h2 {
     transform: rotate(360deg);
   }
 }
+
+.day {
+  background-color: antiquewhite;
+  padding: 30px;
+}
+
+.dark {
+  background-color: #717f9c;
+  padding: 30px;
+}

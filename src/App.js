@@ -5,6 +5,7 @@ import MuiRadioBtn from "./components/MuiRadioBtn";
 import MuiSelect from "./components/MuiSelect";
 import MultipleSelect from "./components/MuiSelectMulti";
 import MuiSelectMulti2 from "./components/MuiSelectMulti2";
+import MuiSwitch from "./components/MuiSwitch";
 import MuiTextField from "./components/MuiTextField";
 import MuiTypo from "./components/MuiTypo";
 
@@ -28,6 +29,8 @@ function App() {
       <MuiRadioBtn />
       <h2>MUI 5 Checkbox examples</h2>
       <MuiCheckBox />
+      <h2>MUI 5 Switch Component</h2>
+      <MuiSwitch />
     </div>
   );
 }
