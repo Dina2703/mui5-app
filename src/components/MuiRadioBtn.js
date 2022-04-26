@@ -39,11 +39,7 @@ function MuiRadioBtn() {
             label="3-5"
             value="3-5"
           />
-          <FormControlLabel
-            control={<Radio size="large" />}
-            label="6-10"
-            value="6-10"
-          />
+          <FormControlLabel control={<Radio />} label="6-10" value="6-10" />
         </RadioGroup>
         <FormHelperText>choose one </FormHelperText>
       </FormControl>
