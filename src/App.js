@@ -1,5 +1,6 @@
 import "./App.css";
 import MuiButton from "./components/MuiButton";
+import MuiRadioBtn from "./components/MuiRadioBtn";
 import MuiSelect from "./components/MuiSelect";
 import MultipleSelect from "./components/MuiSelectMulti";
 import MuiSelectMulti2 from "./components/MuiSelectMulti2";
@@ -22,6 +23,8 @@ function App() {
       <MultipleSelect />
       <h2>MUI 5 Multiple select with TextField component</h2>
       <MuiSelectMulti2 />
+      <h2>MUI 5 Radio Button examples</h2>
+      <MuiRadioBtn />
     </div>
   );
 }
