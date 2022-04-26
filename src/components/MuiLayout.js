@@ -1,9 +1,9 @@
-import { Box, Stack, Divider, Grid } from "@mui/material";
+import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
 import React from "react";
 
 function MuiLayout() {
   return (
-    <>
+    <Paper sx={{ padding: "32px" }} elevation={4}>
       <Stack
         spacing={2}
         p={1}
@@ -79,7 +79,7 @@ function MuiLayout() {
           </Box>
         </Grid>
       </Grid>
-    </>
+    </Paper>
   );
 }
 
@@ -90,4 +90,8 @@ export default MuiLayout;
 //Stack used to manage layout in one-dimention(vertical or horizontal axis), it's default direction is column/vertical. can use: row,column-reverse, row-reverse for direction prop.
 
 //Grid (uses flexbox module) used to create two-dimention and responsive layout. Grid has two variations: grid 'container' for a parent, gird 'item' for children.
+
+//Paper used to establish sections of UI. It is used under the hood to build the card component in MUI.
+
+//Card contains content and actions about a single topic. 
 */
