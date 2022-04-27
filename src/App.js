@@ -6,6 +6,7 @@ import MuiCard from "./components/MuiCard";
 import MuiCheckBox from "./components/MuiCheckBox";
 import MuiImageList from "./components/MuiImageList";
 import MuiLayout from "./components/MuiLayout";
+import MuiLink from "./components/MuiLink";
 import MuiNavbar from "./components/MuiNavbar";
 import MuiRadioBtn from "./components/MuiRadioBtn";
 import MuiRating from "./components/MuiRating";
@@ -52,6 +53,8 @@ function App() {
       <MuiImageList />
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
+      <h2>MUI 5 Link </h2>
+      <MuiLink />
     </div>
   );
 }
