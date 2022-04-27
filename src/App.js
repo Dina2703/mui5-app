@@ -1,4 +1,5 @@
 import "./App.css";
+
 import DrawerMUI from "./components/Drawer";
 import MuiAccordion from "./components/MuiAccordion";
 import MuiAutoComplete from "./components/MuiAutoComplete";
@@ -15,6 +16,7 @@ import MuiRating from "./components/MuiRating";
 import MuiSelect from "./components/MuiSelect";
 import MultipleSelect from "./components/MuiSelectMulti";
 import MuiSelectMulti2 from "./components/MuiSelectMulti2";
+import MuiSpeedDial from "./components/MuiSpeedDial";
 import MuiSwitch from "./components/MuiSwitch";
 import MuiTextField from "./components/MuiTextField";
 import MuiTypo from "./components/MuiTypo";
@@ -61,6 +63,11 @@ function App() {
       <MuiLink />
       <h2>MUI 5 Drawer </h2>
       <DrawerMUI />
+      <h2>
+        MUI 5 Speed Dial MUI.
+        <span> Blue circle fixed on the left-bottom of the UI</span>
+      </h2>
+      <MuiSpeedDial />
     </div>
   );
 }

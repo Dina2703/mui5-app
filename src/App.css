@@ -1,9 +1,13 @@
 body {
   background: #eeeeee;
+  position: relative;
 }
 
 .App {
   padding: 4rem;
+}
+span {
+  color: blue;
 }
 
 .App-logo {
