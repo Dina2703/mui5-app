@@ -9,7 +9,7 @@ function MuiSpeedDial() {
   return (
     <SpeedDial
       ariaLabel="navigation speed dial"
-      sx={{ position: "absolute", bottom: 16, right: 16 }}
+      sx={{ position: "fixed", bottom: 76, right: 16 }}
       icon={<SpeedDialIcon openIcon={<EditIcon />} />}
     >
       <SpeedDialAction icon={<CopyIcon />} tooltipTitle="Copy" tooltipOpen />
