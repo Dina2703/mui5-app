@@ -1,6 +1,7 @@
 import "./App.css";
 import MuiAccordion from "./components/MuiAccordion";
 import MuiAutoComplete from "./components/MuiAutoComplete";
+import MuiBreadcrumps from "./components/MuiBreadcrumps";
 import MuiButton from "./components/MuiButton";
 import MuiCard from "./components/MuiCard";
 import MuiCheckBox from "./components/MuiCheckBox";
@@ -53,6 +54,8 @@ function App() {
       <MuiImageList />
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
+      <h2>MUI 5 Breadcrumb </h2>
+      <MuiBreadcrumps />
       <h2>MUI 5 Link </h2>
       <MuiLink />
     </div>
