@@ -4,6 +4,7 @@ import MuiAutoComplete from "./components/MuiAutoComplete";
 import MuiButton from "./components/MuiButton";
 import MuiCard from "./components/MuiCard";
 import MuiCheckBox from "./components/MuiCheckBox";
+import MuiImageList from "./components/MuiImageList";
 import MuiLayout from "./components/MuiLayout";
 import MuiRadioBtn from "./components/MuiRadioBtn";
 import MuiRating from "./components/MuiRating";
@@ -46,6 +47,8 @@ function App() {
       <MuiCard />
       <h2>MUI 5 Accordion </h2>
       <MuiAccordion />
+      <h2>MUI 5 ImageList </h2>
+      <MuiImageList />
     </div>
   );
 }
