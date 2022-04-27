@@ -1,4 +1,5 @@
 import "./App.css";
+import DrawerMUI from "./components/Drawer";
 import MuiAccordion from "./components/MuiAccordion";
 import MuiAutoComplete from "./components/MuiAutoComplete";
 import MuiBreadcrumps from "./components/MuiBreadcrumps";
@@ -58,6 +59,8 @@ function App() {
       <MuiBreadcrumps />
       <h2>MUI 5 Link </h2>
       <MuiLink />
+      <h2>MUI 5 Drawer </h2>
+      <DrawerMUI />
     </div>
   );
 }
