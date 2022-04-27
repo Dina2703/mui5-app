@@ -2,6 +2,7 @@ import "./App.css";
 import DrawerMUI from "./components/Drawer";
 import MuiAccordion from "./components/MuiAccordion";
 import MuiAutoComplete from "./components/MuiAutoComplete";
+import MuiAvatar from "./components/MuiAvatar";
 import MuiBottomNavigation from "./components/MuiBottomNavigation";
 import MuiBreadcrumps from "./components/MuiBreadcrumps";
 import MuiButton from "./components/MuiButton";
@@ -63,6 +64,8 @@ function App() {
         <MuiLink />
         <h2>MUI 5 Drawer </h2>
         <DrawerMUI />
+        <h2>MUI 5 Avatar MUI </h2>
+        <MuiAvatar />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
