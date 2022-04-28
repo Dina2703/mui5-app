@@ -3,6 +3,7 @@ import DrawerMUI from "./components/Drawer";
 import MuiAccordion from "./components/MuiAccordion";
 import MuiAutoComplete from "./components/MuiAutoComplete";
 import MuiAvatar from "./components/MuiAvatar";
+import MuiBadge from "./components/MuiBadge";
 import MuiBottomNavigation from "./components/MuiBottomNavigation";
 import MuiBreadcrumps from "./components/MuiBreadcrumps";
 import MuiButton from "./components/MuiButton";
@@ -66,6 +67,8 @@ function App() {
         <DrawerMUI />
         <h2>MUI 5 Avatar MUI </h2>
         <MuiAvatar />
+        <h2>MUI 5 Badge MUI </h2>
+        <MuiBadge />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
