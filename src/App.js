@@ -12,6 +12,7 @@ import MuiCheckBox from "./components/MuiCheckBox";
 import MuiImageList from "./components/MuiImageList";
 import MuiLayout from "./components/MuiLayout";
 import MuiLink from "./components/MuiLink";
+import MuiList from "./components/MuiList";
 import MuiNavbar from "./components/MuiNavbar";
 import MuiRadioBtn from "./components/MuiRadioBtn";
 import MuiRating from "./components/MuiRating";
@@ -69,6 +70,8 @@ function App() {
         <MuiAvatar />
         <h2>MUI 5 Badge MUI </h2>
         <MuiBadge />
+        <h2>MUI 5 List MUI </h2>
+        <MuiList />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
