@@ -9,6 +9,7 @@ import MuiBreadcrumps from "./components/MuiBreadcrumps";
 import MuiButton from "./components/MuiButton";
 import MuiCard from "./components/MuiCard";
 import MuiCheckBox from "./components/MuiCheckBox";
+import MuiChip from "./components/MuiChip";
 import MuiImageList from "./components/MuiImageList";
 import MuiLayout from "./components/MuiLayout";
 import MuiLink from "./components/MuiLink";
@@ -72,6 +73,8 @@ function App() {
         <MuiBadge />
         <h2>MUI 5 List MUI </h2>
         <MuiList />
+        <h2>MUI 5 Chip MUI </h2>
+        <MuiChip />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
