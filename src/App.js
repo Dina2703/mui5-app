@@ -29,6 +29,7 @@ import MuiTabel from "./components/MuiTabel";
 import MuiAlert from "./components/MuiAlert";
 import MuiSnackbar from "./components/MuiSnackbar";
 import MuiDialog from "./components/MuiDialog";
+import MuiProgress from "./components/MuiProgress";
 
 function App() {
   return (
@@ -90,6 +91,8 @@ function App() {
         <MuiSnackbar />
         <h2>MUI 5 Dialog MUI </h2>
         <MuiDialog />
+        <h2>MUI 5 Progress MUI </h2>
+        <MuiProgress />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
