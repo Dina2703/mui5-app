@@ -26,6 +26,7 @@ import MuiTextField from "./components/MuiTextField";
 import MuiTypo from "./components/MuiTypo";
 import MuiToolTip from "./components/MuiToolTip";
 import MuiTabel from "./components/MuiTabel";
+import MuiAlert from "./components/MuiAlert";
 
 function App() {
   return (
@@ -81,6 +82,8 @@ function App() {
         <MuiToolTip />
         <h2>MUI 5 Table MUI </h2>
         <MuiTabel />
+        <h2>MUI 5 Alert MUI </h2>
+        <MuiAlert />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
