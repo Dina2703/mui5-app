@@ -28,6 +28,7 @@ import MuiToolTip from "./components/MuiToolTip";
 import MuiTabel from "./components/MuiTabel";
 import MuiAlert from "./components/MuiAlert";
 import MuiSnackbar from "./components/MuiSnackbar";
+import MuiDialog from "./components/MuiDialog";
 
 function App() {
   return (
@@ -87,6 +88,8 @@ function App() {
         <MuiAlert />
         <h2>MUI 5 Snackbar MUI </h2>
         <MuiSnackbar />
+        <h2>MUI 5 Dialog MUI </h2>
+        <MuiDialog />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
