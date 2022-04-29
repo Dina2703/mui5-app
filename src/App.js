@@ -31,6 +31,7 @@ import MuiSnackbar from "./components/MuiSnackbar";
 import MuiDialog from "./components/MuiDialog";
 import MuiProgress from "./components/MuiProgress";
 import MuiSkeleton from "./components/MuiSkeleton";
+import MuiLoadingBtn from "./components/MuiLoadingBtn";
 
 function App() {
   return (
@@ -96,6 +97,8 @@ function App() {
         <MuiProgress />
         <h2>MUI 5 Skeleton MUI </h2>
         <MuiSkeleton />
+        <h2>MUI 5 Loading button MUI/lab </h2>
+        <MuiLoadingBtn />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
