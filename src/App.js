@@ -24,6 +24,7 @@ import MuiSpeedDial from "./components/MuiSpeedDial";
 import MuiSwitch from "./components/MuiSwitch";
 import MuiTextField from "./components/MuiTextField";
 import MuiTypo from "./components/MuiTypo";
+import MuiToolTip from "./components/MuiToolTip";
 
 function App() {
   return (
@@ -75,6 +76,8 @@ function App() {
         <MuiList />
         <h2>MUI 5 Chip MUI </h2>
         <MuiChip />
+        <h2>MUI 5 Tooltip MUI </h2>
+        <MuiToolTip />
       </div>
       <h2>MUI 5 NavBar </h2>
       <MuiNavbar />
