@@ -37,6 +37,7 @@ import MuiLoadingBtn from "./components/MuiLoadingBtn";
 import MuiPicker from "./components/MuiPicker";
 import MuiTab from "./components/MuiTab";
 import MuiTimeline from "./components/MuiTimeline";
+import MuiMasonry from "./components/MuiMasonry";
 
 function App() {
   return (
@@ -110,6 +111,8 @@ function App() {
           <MuiTab />
           <h2>MUI 5 Timeline MUI </h2>
           <MuiTimeline />
+          <h2>MUI 5 Masonry MUI </h2>
+          <MuiMasonry />
         </div>
         <h2>MUI 5 NavBar </h2>
         <MuiNavbar />
