@@ -35,6 +35,7 @@ import MuiProgress from "./components/MuiProgress";
 import MuiSkeleton from "./components/MuiSkeleton";
 import MuiLoadingBtn from "./components/MuiLoadingBtn";
 import MuiPicker from "./components/MuiPicker";
+import MuiTab from "./components/MuiTab";
 
 function App() {
   return (
@@ -104,6 +105,8 @@ function App() {
           <MuiLoadingBtn />
           <h2>MUI 5 date and Time picker MUI/lab </h2>
           <MuiPicker />
+          <h2>MUI 5 Tabs MUI </h2>
+          <MuiTab />
         </div>
         <h2>MUI 5 NavBar </h2>
         <MuiNavbar />
